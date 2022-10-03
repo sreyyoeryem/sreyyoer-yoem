@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  font-family: sans-serif;
+  background-color: rgb(164, 175, 190);
+}
+
+nav {
+  background: rgb(18, 8, 56);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  position: sticky;
+  top: 0px;
+  color: white;
+}
+nav .list {
+  flex: 2;
+}
+nav .list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+nav .list ul li {
+  list-style: none;
+  margin-left: 5%;
+  font-weight: bold;
+}
+nav .list ul li:hover {
+  color: rgb(211, 16, 16);
+  cursor: pointer;
+}
+nav .profile {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+main {
+  padding: 90px;
+  display: flex;
+  background-color: rgba(8, 34, 129, 0.966);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+main .image img {
+  width: 350px;
+  height: 450px;
+  border-radius: 50%;
+}
+main .text {
+  flex: 1;
+}
+main .text p {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.title {
+  padding: 10PX;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title p {
+  border: 2px solid rgb(131, 140, 228);
+  border-radius: 10px;
+  padding: 50PX;
+  background: rgb(164, 175, 190);
+  width: 80%;
+  box-shadow: 1px 1px 5px 5px rgb(100, 131, 173);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgb(18, 8, 56);
+  color: white;
+}
+footer .adress {
+  padding: 20px;
+}
+footer .related {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+}
+footer .related label {
+  margin: 10px, 10px, 10px 0px;
+}
+footer .related i {
+  margin: 10px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgb(99, 119, 178);
+}
+footer .related .online-related img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}/*# sourceMappingURL=stype.css.map */

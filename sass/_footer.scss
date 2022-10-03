@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:$color-nav; 
+    color: white;
+    .adress{
+        padding: 20px;
+    }
+    .related{
+        @include flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 10px;
+        label{
+            margin: 10px, 10px, 10px 0px;
+        }
+        i{
+            margin: 10px;
+            padding: 7px;
+            border-radius: 5px;
+            background-color: rgb(99, 119, 178);
+          
+        }
+        
+        .online-related{
+           
+        
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+        }
+
+    }
+    
+}
